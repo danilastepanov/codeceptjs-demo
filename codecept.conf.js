@@ -11,15 +11,14 @@ exports.config = {
   tests: './*_test.js',
   output: './output',
   helpers: {
-    Puppeteer: {
+    Playwright: {
+      browser: 'chromium',
       url: 'http://localhost',
-      show: true,
-      windowSize: '1200x900'
+      show: true
     }
   },
   include: {
     I: './steps_file.js'
   },
-  name: 'qajs',
-  translation: 'ru-RU'
+  name: 'qajs'
 }

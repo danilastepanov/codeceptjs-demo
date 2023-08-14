@@ -1,5 +1,6 @@
-Цель('demo');
+Feature("demo");
 
-Сценарий('test something',  ({ Я }) => {
-
+Scenario("test something", ({ I }) => {
+    I.amOnPage("https://github.com");
+    I.see("GitHub");
 });
