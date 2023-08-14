@@ -14,7 +14,7 @@ exports.config = {
     Puppeteer: {
       url: 'http://localhost',
       show: true,
-      windowSize: ''
+      windowSize: '1200x900'
     }
   },
   include: {
